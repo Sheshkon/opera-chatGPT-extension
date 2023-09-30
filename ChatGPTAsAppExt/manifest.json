@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+
+	"name": "ChatGPT as an app",
+	"description": "Extension to create opera app for chatGPT in windows OS github: link",
+	"version": "1.0",
+	"background": {
+		"service_worker": "background.js"
+	},
+
+	"permissions": ["tabs", "activeTab"],
+	"icons": {
+		"16": "logo.png",
+		"48": "logo.png",
+		"128": "logo.png",
+		"512": "logo.png"
+	},
+
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "logo.png",
+			"48": "logo.png",
+			"128": "logo.png"
+		}
+	}
+}
