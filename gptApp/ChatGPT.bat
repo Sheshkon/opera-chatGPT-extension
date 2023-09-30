@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "launcherPath=C:\Users\alexei\AppData\Local\Programs\Opera"
+set "launcherPath=C:\Users\user\AppData\Local\Programs\Opera"
 set "url=chat.openai.com"
 
 echo !url! | find "?" > nul
